@@ -1,0 +1,29 @@
+<style>
+  .fullscreen-iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    z-index: 9999; /* Make sure it’s on top of everything */
+    background: #000; /* Avoid white flashes */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrollbars from other content */
+  }
+</style>
+
+<iframe
+  src="https://www.paymegpt.com/widgets/57428028"
+  class="fullscreen-iframe"
+  frameborder="0"
+  scrolling="no"
+  allowfullscreen>
+</iframe>
